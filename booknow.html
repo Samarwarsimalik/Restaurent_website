@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body class="back">
+    <div class="container-fluid">
+        <!----- nav bar start------>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black">
+            <div class="container ">
+              <img src="images/sr (2).png" height="50px"/>
+              
+                
+                <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-target="#navbarNav"
+                data-bs-toggle="collapse"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="toggle Navbar">
+            <span class="navbar-toggler-icon"></span>
+           
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav"></div>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                
+              <li class="nav-item">
+                <a class="nav-link fs-4 text-light" href="index.html"><h4>HOME</h4></a>
+              </li><li class="nav-item">
+                <a class="nav-link fs-4 text-light" href="menu.html"> <h4>MENU</h4></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4 text-light" href="gallery.html"><h4>GALLERY</h4></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4 text-light" href="login.html"> <h4>ABOUT US</h4></a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link fs-4 text-light" href="SignUp.html"><h4>CONTACT</h4></a>
+              </li>
+              <li class="nav-item">
+                <a href="booknow.html"><button type="button" class="btn btn-outline-warning"><h4>Book Now</h4></button></a>
+              </li>
+              </ul>
+            </div>
+        </nav>
+        <!--------nav end---->
+        <!-----------------------form------------>
+        <div class="row mt-5">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4 bg-warning mt-5"> <H1 class="mt-3 text-center bg-black text-warning py-4">BOOK TABLE</H1>
+                <div class="row mt-3 ">
+                    <form class="fs-4">
+                    <label for="validationDefault01" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="validationDefault01" placeholder="Enter Your Name" required>
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <label for="exampleFormControlInput2" class="form-label">Phone Number</label>
+                   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Phone No.">
+                   <label for="exampleFormControlInput1" class="form-label">Reservation Date</label><br>
+                   <input type="date">
+
+                   <br>
+                   <label for="exampleFormControlInput1" class="form-label">Reservation Date</label><br>
+                   <input type="time">
+                   <br>
+                   <label for="exampleFormControlInput2" class="form-label">How many person will you be with ?</label>
+                   <input type="email" class="form-control" id="exampleFormControlInput1">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                 <button type="button" class="btn btn-outline-dark mb-5 mt-3"><h4>Book Now</h4></button>
+                 
+                 
+                    </form>
+                    <div class="row"></div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4"></div>
+
+
+        </div>
+        <!--------footer start------>
+
+        <div class="container-fluid bg-black mt-4 ">
+          <div class="container footer">
+          <div class="row">
+            <div class="col-4 "><h1 class="text-light p-4 ms-3"><img src="images/sr (2).png" height="150px"/></h1></div>
+            <div class="col-4"></div>
+            <div class="col-4 mt-4">
+    
+               <!-- Large button groups (default and split) -->
+    <div class="btn-group">
+      <button class="btn btn-warning btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        English
+      </button>
+      <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Hindi</a></li>
+          <li><a class="dropdown-item" href="#">italic</a></li>
+          <li><a class="dropdown-item" href="#">indonasian</a></li>
+        
+      </ul>
+    </div>
+    <div class="btn-group">
+      <button class="btn btn-warning btn-lg " type="button">
+        India
+      </button>
+      <button type="button" class="btn btn-lg btn-warning dropdown-toggle dropdown-toggle-split " data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="visually-hidden">Toggle Dropdown</span>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">UAE</a></li>
+          <li><a class="dropdown-item" href="#">LONDON</a></li>
+          <li><a class="dropdown-item" href="#">AUSTRALIA</a></li>
+      </ul>
+    </div>
+    
+            </div>
+          </div>
+          <div class="container footer m-3">
+          <div class="row">
+            <div class="col-2 m-2">
+              <ul>
+              
+                <li><a class="text-light" href="#"><h5> ABOUT RESTURENT</h5> </a></li>
+          <li><a class="text-light" href="#">Who We Are</a></li>
+          <li><a class="text-light" href="#">Blog</a></li>
+          <li><a class="text-light" href="#">Work With Us</a></li>
+          <li><a class="text-light" href="#">Invester Relation</a></li>
+          <li><a class="text-light" href="#">Report Fraud</a></li>
+          <li><a class="text-light" href="#">Press kit</a></li>
+          <li><a class="text-light" href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="col-2 m-2">
+              <ul>
+                <li><a class="text-light" href="#"><h4>ZOMAVERSE</h4> </a></li>
+          <li><a class="text-light" href="#">Blinkit</a></li>
+          <li><a class="text-light" href="#"> Feeding India</a></li>
+          <li><a class="text-light" href="#"> Hyperpure</a></li>
+          <li><a class="text-light" href="#">zomaland</a></li>
+              </ul>
+          
+    
+            </div>
+            <div class="col-2 m-3">
+              <ul>
+                <li><a class="text-light" href="#"><h4>FOR RESTAURANTS</h4> </a></li>
+          <li><a class="text-light" href="#">Partner With Us</a></li>
+          <li><a class="text-light" href="#"> Apps For You</a></li>
+          
+              </ul >
+              <ul m-2>
+                <li><a class="text-light" href="#"><h4>FOR ENTERPRISES</h4> </a></li>
+          <li><a class="text-light" href="#">Zomato for Enterprise</a></li>
+              </ul>
+            </div>
+            <div class="col-2 m-3">
+              <ul>
+                <li><a class="text-light" href="#"><h4> LEARN MORE</h4> </a></li>
+          <li><a class="text-light" href="#">Privacy</a></li>
+          <li><a class="text-light" href="#">Security</a></li>
+          <li><a class="text-light" href="#">Terms</a></li>
+          <li><a class="text-light" href="#">Sitemap</a></li>
+              </ul>
+          
+              
+    
+    
+            </div>
+            <div class="col-2 text-light m-3">
+              <h4> SOCIAL LINKS</h4>
+              <ul class="smi text-light p-3">
+                <li>
+                  <i class="fa-brands fa-facebook "></i></li>
+               <li>
+               <i class="fa-brands fa-instagram"></i></li>
+               <li>
+               <i class="fa-brands fa-twitter"></i></li>
+               <li>
+               <i class="fa-brands fa-google"></i></li>
+               </ul>
+               
+            
+    
+            </div>
+          </div>
+        </div>
+        <hr class="text-light">
+        <div class="row text-light p-3">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies.
+           All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Ltd. All rights reserved.</div>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <!---------footer end------------->
+
+
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

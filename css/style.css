@@ -1,0 +1,15 @@
+.back
+{
+    background-image: url(../images/restaurent/two.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p2
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+p3
+{
+    text-align: justify;
+}
